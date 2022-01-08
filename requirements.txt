@@ -1,0 +1,10 @@
+numpy
+pandas
+lightgbm==3.2.1
+pickleshare==0.7.5
+fastapi>=0.68.0,<0.69.0
+pydantic>=1.8.0,<2.0.0
+uvicorn>=0.15.0,<0.16.0
+gunicorn==19.0.0
+uvloop
+httptools
