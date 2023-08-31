@@ -9,25 +9,25 @@ FastAPI est un logiciel framework pour construire des APIs avec Python.
 ## Comment l'installer ?
 
 
-'''py
+```
 pip install fastapi[all]
-'''
+```
 
 ## Créer un script basic python avec Fastapi
 
-'''
+```
 from fastapi import FastAPI
 app = FastAPI
 
 @app.get('/')
 def base():
   return "Hello World"
-
+```
 Maintenant il faut lancer le serveur grace à cette commande dans le terminal
 
-
+```
 uvicorn main:app -reload
-
+```
 
 ![image](https://github.com/Hajoura91coding/Projet_7_Fastapi/assets/60748328/ec88d48b-9167-48d2-ad08-b57eb719d783)
 
